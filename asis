@@ -1,5 +1,6 @@
 #!/bin/bash
 model_engine="text-davinci-003"
+key=$(cat key.txt)
 api_key="$key"
 mensaje=$1
 if [[ $mensaje == "" ]];then
