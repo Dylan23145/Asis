@@ -1,6 +1,6 @@
 #!/bin/bash
 model_engine="text-davinci-003"
-api_key="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"
+api_key="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"
 mensaje=$1
 if [[ $mensaje == "" ]];then
 	echo "para usar el asistente escribe:"
