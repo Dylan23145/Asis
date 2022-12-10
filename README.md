@@ -1,5 +1,5 @@
 # Asis
-Asis es un asistente personas el terminal donde te ayudará a resolver dudas o simplemente charla
+¡Un Asistente Virtual en Terminal Bash que te ayuda a navegar por el mundo de la línea de comandos! Una que te guían a través de tareas complejas de la forma más sencilla. ¡Explora el mundo de la línea de comandos con tu nuevo amigo virtual!
 
 # Instalación 
 La instalación es sencilla y solo requiere de pocos comandos
