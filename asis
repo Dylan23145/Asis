@@ -9,7 +9,7 @@ if [[ $mensaje == "" ]];then
 else
 	respuesta=$(curl -s -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $api_key" https://api.openai.com/v1/engines/$model_engine/completions -d "{\"prompt\":\"$mensaje\",\"max_tokens\":1024,\"temperature\":0.5}" | jq -r '.choices[0].text' )
 	if [[ $respuesta == "" ]] || [[ $respuesta == "" ]];then
-		tput 1;no hay conexion a internet
+		tput setaf 1;no hay conexion a internet
 		exit
 	else
 		tput setaf 1;echo -n "Asis:";tput setaf 10;echo -e "$respuesta"
