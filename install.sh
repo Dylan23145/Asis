@@ -3,7 +3,7 @@ pkg install jq -y
 mv asis /data/data/com.termux/files/usr/bin/
 cd /data/data/com.termux/files/usr/bin/
 chmod +x asis 
-cd $HOME
+cd
 rm -rf Asis
 tput setaf 10;echo 'Asis ha sido instalado en tu terminal
 
