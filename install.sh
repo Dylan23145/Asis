@@ -1,8 +1,8 @@
 pkg install ncurses-utils -y
 pkg install jq -y
-mv asis ../usr/bin/
-mv key.txt ../usr/bin/
-cd ../usr/bin/
+mv asis /data/data/com.termux/files/usr/bin/
+mv key.txt /data/data/com.termux/files/usr/bin/
+cd /data/data/com.termux/files/usr/bin/
 chmod +x asis 
 cd
 rm -rf Asis
