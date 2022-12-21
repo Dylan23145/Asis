@@ -5,8 +5,11 @@
 La instalación es sencilla y solo requiere de pocos comandos
 
 pkg install git 
+
 git clone https://github.com/Dylan23145/Asis
+
 cd Asis
+
 bash install.sh
 
 #Ejecucion
