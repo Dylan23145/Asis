@@ -19,3 +19,7 @@ Puedes ejecutar a Asis en cualquier lugar de la terminalcon solo escribir lo sig
 asis "pregunta"
 
 Y así de sencillo 
+
+#NOTA: 19/03/2023
+
+Asis no está en funcionamiento, muchas gracias por el apoyo y las personas que lo usaron 
